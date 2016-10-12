@@ -3,6 +3,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0;
 }
 .header{
 
@@ -12,6 +13,7 @@ body{
   width: 70%;
 }
 .par{
+  color: black;
   text-align: left;
   font-size: 130%;
   font-family: sans-serif;
@@ -37,7 +39,7 @@ body{
   border: 5px;
 }
 .footer{
-  border-top: 2px solid black;
+  border-top: 2px solid rgb(47, 44, 44);
   text-align: center;
 }
 .uniUl{
@@ -54,6 +56,8 @@ img{
   width:auto;
 }
 a{
+  height: auto;
+  width: auto;
   color: rgb(33, 109, 163);
   text-decoration: none;
 }
