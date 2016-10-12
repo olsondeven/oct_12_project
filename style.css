@@ -1,0 +1,47 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 70%;
+}
+.par{
+  text-align: left;
+  font-size: 130%;
+  font-family: sans-serif;
+}
+.par2{
+  font-size: 130%;
+  text-align: right;
+  font-family: sans-serif;
+}
+.main-icon-layout{
+
+}
+.link-cont{
+  width: 71vw;
+  height: 16vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 5px solid red;
+}
+.imgBox{
+  border: 5px solid blue;
+}
+.footer{
+  border-top: 2px solid black;
+  text-align: center;
+}
+.uniUl{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+li{
+  margin-right: 10px;
+}
