@@ -1,9 +1,11 @@
 body{
+  font-family: sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .header{
+
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -20,18 +22,19 @@ body{
   font-family: sans-serif;
 }
 .main-icon-layout{
-
+  width: 80%;
 }
 .link-cont{
-  width: 71vw;
+  /*width: 71vw;*/
   height: 16vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border: 5px solid red;
+  border: 5px;
 }
 .imgBox{
-  border: 5px solid blue;
+  height: 135;
+  border: 5px;
 }
 .footer{
   border-top: 2px solid black;
@@ -44,4 +47,13 @@ body{
 }
 li{
   margin-right: 10px;
+  margin-left: 10px;
+}
+img{
+  height: auto;
+  width:auto;
+}
+a{
+  color: rgb(33, 109, 163);
+  text-decoration: none;
 }
